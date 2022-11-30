@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Paolo Fernando Portfolio</title>
+  <meta name="title" content="Paolo - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by Paolo Fernando Flores Rivera">
+
+  <!--   - fontAwesome
+  -->  
+  <script src="https://kit.fontawesome.com/957bfdbb65.js" crossorigin="anonymous"></script>
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+</head>
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <p class="">Paolo</p>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            Paolo
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link">Projects</a>
+          </li>
+
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">frpaolofernando@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">(+52) 921 128 23 34</a>
+        </div>
+
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/paolo.flores.779/" target="_blank" class="social-link">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/PaoloHi" target="_blank" class="social-link">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/paolo-fernando-flores-rivera-a2b7b4223/" target="_blank" class="social-link">
+              <i class="fa-brands fa-linkedin"></i>            
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <i class="fa-solid fa-envelope"></i>  
+            </a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img class="hero-upimage" src="/assets/images/home2.svg" alt="home">
+
+            <img src="./assets/images/hero-banner.jpg" width="560" height="540" alt="Paolo" class="w-100"
+              data-reveal="top">
+            
+              <div class="hero-done">
+                <h3><span><i class="fa-solid fa-clock-rotate-left"></i></span>+15 projects done</h3>
+              </div>
+          </figure>
+          
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Jr FrontEnd Developer
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Paolo, i'm a young developer ready to work and enthusiastic to spend a lot of hours on programming troubleshooting and design.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary">See My Works</a>
+
+              <a href="#" class="btn btn-secondary">Contact Me</a>
+              
+              <a href="https://www.coursera.org/account/accomplishments/verify/U7GUFMNN4YEM" target="_blank">click here to see my certification</a>
+
+            </div>
+            
+            <img class="hero-image" src="/assets/images/home.svg" alt="home">
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+            
+            <div data-reveal="left">
+              <h1>About Me</h1>
+              <h2 class="h2 section-title">What can i do ?</h2>
+
+              <p class="section-text">
+                im able to do a responsive web design on HTML CSS and JS, using AJAX to avoid making a update to the server 
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <i class="fa-brands fa-html5"></i>
+                  <p>HTML</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <i class="fa-brands fa-css3-alt"></i>
+
+                  <p>CSS</p>
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <i class="fa-brands fa-square-js"></i>
+                  <p>JavaScript / AJAX</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <i class="fa-brands fa-bootstrap"></i>
+                  <p>Bootstrap 5</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Design</h3>
+
+                <p class="card-text">
+                   im able to make a responsive website for different kind of divices, using bootstrap "col" class
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Fetch API</h3>
+
+                <p class="card-text">
+                  Im able to make a fetch API to substract data on Json format using Javascript and Ajax
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Git and GitHub</h3>
+
+                <p class="card-text">
+                  I do use important technologies as GIT and GitHub to save work and time.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">other technologies</h3>
+
+                <p class="card-text">
+                  i know the basics about SASS, GULP, NMP and Node.JS
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="project" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">Pokedex Website</h3>
+
+                  <p class="card-text">
+                    Making a fetch API it contains all the 800 pokemon in 3D version or pixeles.
+                  </p>
+
+                  <a href="https://6387bf2f5c696c5f4f642c83--heroic-starlight-d1a2d5.netlify.app/" target="_blank" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+                  
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                  <a href="https://github.com/PaoloHi/paolohi/tree/main/Pokedex" target="_blank" class="btn-text" style="color: #a07cc5">
+                    <i class="fa-brands fa-github"></i> 
+                    <span class="span">check the code</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner w-80" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="100" loading="lazy" alt="Web Design"
+                    class="w-80">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Web Design</p>
+
+                  <h3 class="h3 card-title">Coffe Shop Website</h3>
+
+                  <p class="card-text">
+                    beutifull design with a google maps location website of a coffe-shop
+                  </p>
+
+                  <a href="https://aesthetic-starlight-d810aa.netlify.app/#" class="btn-text" target="_blank" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+
+                  <a href="https://github.com/PaoloHi/paolohi/tree/main/coffeWebsite" class="btn-text" target="_blank" style="color: #3f78e0">
+                    <i class="fa-brands fa-github"></i> 
+                    <span class="span">check the code</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                  
+
+                </div>
+
+                
+                <figure class="card-banner" data-reveal="left">
+                                  
+                 <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100 project-image">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f3fdf1">
+  
+                <div class="card-content" data-reveal="right">
+  
+                  <p class=" card-tag" style="color: #47ab5a">Web Design</p>
+  
+                  <h3 class="h3 card-title">Wikipedia searcher  using AJAX</h3>
+  
+                  <p class="card-text">
+                    
+                  </p>
+  
+                  <a href="https://flourishing-manatee-c9d31e.netlify.app/" target="_blank" class="btn-text" style="color: #47ab5a">
+                    <span class="span">See Project</span>
+  
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://github.com/PaoloHi/paolohi/tree/main/wikipedia" target="_blank" class="btn-text" style="color: #47ab5a">
+                    <i class="fa-brands fa-github"></i> 
+                    <span class="span">code</span>
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+  
+                </div>
+  
+                
+                <figure class="card-banner" data-reveal="left">
+                                  
+                 <img src="./assets/images/project3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100 project-image">
+                </figure>
+  
+              </div>
+            </li>
+
+          </ul>
+
+          
+        </div>
+      </section>
+      <!-- 
+        - #CONTACT
+      -->
+      <section id="contact" class="section contact" aria-label="contact">
+        <div class="container">
+          
+          <div class="contact-card">
+            <div class="contact-content" data-reveal="left">
+              <h1 class="lets">Lets work together</h1>
+              <div class="card-icon card-icon-text">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+                <h3>contact me at:</h1>
+              </div>
+
+              <div class="personal-info">
+              
+                <h1>E-mail: <span>frpaolofernando@gmail.com</span></h1>
+                <h1>Phone number: <span>+52 921 128 23 34</span></h1>
+                
+                <a href="https://www.linkedin.com/in/paolo-fernando-flores-rivera-a2b7b4223/" class="social-link"><i class="fa-brands fa-linkedin"></i>  LinkedIn </a>
+                <a href="https://github.com/PaoloHi" class="social-link">
+                  <i class="fa-brands fa-github"></i> github
+                </a>
+              </div>
+              <!--
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                i'm certified by the John Hopkins University for Web design with CSS, HTML and JavaScript trhough coursera.
+              </p>-->
+
+            </div>
+
+
+            <form action="https://formsubmit.co/frpaolofernando@gmail.com" method="POST" class="contact-form" data-reveal="right">
+              <h3 class="lets">Or send me your info </h3>
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+            
+
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2022 Paolo Fernando Flores Rivera. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
